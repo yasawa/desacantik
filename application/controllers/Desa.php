@@ -1,18 +1,18 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Home extends CI_Controller
+class Desa extends CI_Controller
 {
     public function __construct()
     {
         parent::__construct();
     }
-    public function index()
+    public function pipaPutih()
     {
-        $data['judul'] = 'Home';
+        $data['judul'] = 'Desa Pipa Putih';
         $this->load->view('templates/header', $data);
         $this->load->view('templates/navbar', $data);
-        $this->load->view('home');
+        $this->load->view('desa/pipaputih');
         $this->load->view('templates/footer');
     }
 }

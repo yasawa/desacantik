@@ -1,5 +1,5 @@
     <!-- Masthead-->
-    <header class="masthead">
+    <header class="masthead" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url('<?= base_url('assets/img/bg-masthead.jpg') ?>')">
         <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
             <div class="d-flex justify-content-center">
                 <div class="text-center">
@@ -8,24 +8,24 @@
                     <a class="btn btn-primary" href="#about">Get Started</a> -->
                     <div class="row">
                         <div class="col">
-                            <button type="button" class="btn btn-outlines-clear">
+                            <a href="<?= base_url('desa/pipaPutih') ?>" class="btn btn-outlines-clear">
                                 <div class="card">
                                     <img class="card-img-top" src="<?= base_url('assets/img/R.png'); ?>" alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">Desa A</h5>
+                                        <h5 class="card-title">Desa Pipa Putih</h5>
                                     </div>
                                 </div>
-                            </button>
+                            </a>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-outlines-clear">
+                            <a href="<?= base_url('desa/B') ?>" class="btn btn-outlines-clear">
                                 <div class="card">
                                     <img class="card-img-top" src="<?= base_url('assets/img/R.png'); ?>" alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title">Desa B</h5>
                                     </div>
                                 </div>
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                <div class="col-xl-6 col-lg-5"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
+                <div class="col-xl-6 col-lg-5"><img class="img-fluid mb-3 mb-lg-0" src="<?= base_url('assets/img/demo-image-01.jpg'); ?>" alt="..." /></div>
                 <div class="col-xl-6 col-lg-7">
                     <div class="featured-text text-center text-lg-left">
                         <h4>BPS Kabupaten Ogan Ilir</h4>
@@ -64,7 +64,7 @@
     <section class="contact-section bg-black" id="kab">
         <div class="container px-4 px-lg-5">
             <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                <div class="col-lg-6"><img class="img-fluid" src="<?= base_url('assets/img/demo-image-02.jpg'); ?>" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
