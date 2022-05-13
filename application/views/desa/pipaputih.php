@@ -44,7 +44,7 @@
                         <h5 class="card-title center-bold">Jumlah Penduduk Berdasarkan Dusun Tempat Tinggal</h5>
                     </div>
                     <div class="card-body">
-                        <canvas id="bar-chart-pendidikan"></canvas>
+                        <canvas id="bar-chart-dusun"></canvas>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                         <h5 class="card-title center-bold">Jumlah Penduduk Berdasarkan Pekerjaan</h5>
                     </div>
                     <div class="card-body">
-                        <canvas id="bar-chart-pendidikan"></canvas>
+                        <canvas id="bar-chart-pekerjaan"></canvas>
                     </div>
                 </div>
             </div>
@@ -63,20 +63,63 @@
 </section>
 <!-- Contact-->
 <section class="contact-section bg-black" id="kab">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-0 justify-content-center">
-            <div class="col-lg-6"><img class="img-fluid" src="<?= base_url('assets/img/demo-image-02.jpg'); ?>" alt="..." /></div>
-            <div class="col-lg-6 order-lg-first">
-                <div class="bg-black text-center h-100 project">
-                    <div class="d-flex h-100">
-                        <div class="project-text w-100 my-auto text-center text-lg-right">
-                            <h4 class="text-white">Kabupaten Ogan Ilir</h4>
-                            <p class="mb-0 text-white-50">Kabupaten Ogan Ilir adalah salah satu kabupaten di Provinsi Sumatera Selatan. Ogan Ilir berada di jalur lintas timur Sumatra dan pusat pemerintahannya terletak sekitar 35 km dari Kota Palembang. Kabupaten ini merupakan pemekaran dari Kabupaten Ogan Komering Ilir.</p>
-                            <hr class="d-none d-lg-block mb-0 me-0" />
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container px-4 px-lg-5 text-center text-white">
+        <h2 class="text-white mb-4">Sumber Daya Alam</h2>
+        <div class="table-responsive">
+            <table class="table text-white">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Uraian</th>
+                        <th>Volume</th>
+                        <th>Satuan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Lahan Hutan</td>
+                        <td>7132</td>
+                        <td>M</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Pasir Urug</td>
+                        <td>37500</td>
+                        <td>M3</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Lahan Perkebunan</td>
+                        <td>-</td>
+                        <td>Ha</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Tanah Urug</td>
+                        <td>-</td>
+                        <td>M3</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Lahan Persawahan</td>
+                        <td>302</td>
+                        <td>Ha</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Sungai</td>
+                        <td>45000</td>
+                        <td>M</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>Lebak Lebung</td>
+                        <td>150</td>
+                        <td>M</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </section>
@@ -96,8 +139,54 @@
                 display: false,
             },
             title: {
+                display: false,
+                text: 'Total Penduduk  : 2294'
+            }
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    new Chart(document.getElementById("bar-chart-dusun"), {
+        type: 'doughnut',
+        data: {
+            labels: ["Dusun I", "Dusun II", "Dusun III", "Dusun IV", "Dusun V"],
+            datasets: [{
+                // label: "Population (millions)",
+                backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850"],
+                data: [325, 349, 693, 468, 459]
+            }]
+        },
+        options: {
+            legend: {
+                display: false
+            },
+            title: {
                 display: true,
                 text: 'Total Penduduk  : 2294'
+            }
+        }
+    });
+</script>
+
+<script type="text/javascript">
+    new Chart(document.getElementById("bar-chart-pekerjaan"), {
+        type: 'horizontalBar',
+        data: {
+            labels: ['Petani', 'Buruh', 'Wiraswasta', 'Pedagang', 'PNS', 'Polisi'],
+            datasets: [{
+                // label: "Population (millions)",
+                backgroundColor: ["#3e95cd", "#8e5ea2", "#3cba9f", "#e8c3b9", "#c45850", "#3c2a40"],
+                data: [52, 321, 85, 10, 4, 4]
+            }]
+        },
+        options: {
+            legend: {
+                display: false
+            },
+            title: {
+                display: false,
+                text: 'Total Penduduk  :'
             }
         }
     });

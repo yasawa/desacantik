@@ -17,7 +17,7 @@
                         <li class="nav-item"><a class="nav-link" href="#page-top"><?= $judul; ?></a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Sejarah Desa</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Demografi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#kab">Kabupaten Ogan Ilir</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#kab">Sumber Daya Alam</a></li>
                     <?php } ?>
 
                 </ul>

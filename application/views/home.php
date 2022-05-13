@@ -10,7 +10,7 @@
                         <div class="col">
                             <a href="<?= base_url('desa/pipaPutih') ?>" class="btn btn-outlines-clear">
                                 <div class="card">
-                                    <img class="card-img-top" src="<?= base_url('assets/img/R.png'); ?>" alt="Card image cap">
+                                    <img class="card-img-top" src="<?= base_url('assets/img/piput.jpg'); ?>" alt="Card image cap">
                                     <div class="card-body">
                                         <h5 class="card-title">Desa Pipa Putih</h5>
                                     </div>
@@ -50,7 +50,7 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                <div class="col-xl-6 col-lg-5"><img class="img-fluid mb-3 mb-lg-0" src="<?= base_url('assets/img/demo-image-01.jpg'); ?>" alt="..." /></div>
+                <div class="col-xl-6 col-lg-5"><img class="img-fluid mb-3 mb-lg-0" src="<?= base_url('assets/img/bpsoi.png'); ?>" alt="..." /></div>
                 <div class="col-xl-6 col-lg-7">
                     <div class="featured-text text-center text-lg-left">
                         <h4>BPS Kabupaten Ogan Ilir</h4>
