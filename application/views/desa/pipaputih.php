@@ -1,5 +1,5 @@
 <style>
-    #map { height: 700px; }
+    #map { height: 500px; }
 </style>
 <!-- Masthead-->
 <header class="masthead" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url('<?= base_url('assets/img/piput.jpg') ?>'); width: 100%; background-repeat: no-repeat; background-size: cover !important;">
@@ -203,7 +203,7 @@
 </script>
 
 <script type="text/javascript">
-    var map = L.map('map').setView([-3.049529, 104.769174], 16);
+    var map = L.map('map').setView([-3.049529, 104.769174], 15);
     map.scrollWheelZoom.disable();
 
     L.tileLayer('https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}', {
