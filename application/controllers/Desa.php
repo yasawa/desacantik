@@ -15,4 +15,12 @@ class Desa extends CI_Controller
         $this->load->view('desa/pipaputih');
         $this->load->view('templates/footer');
     }
+    public function burai()
+    {
+        $data['judul'] = 'Desa Burai';
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/navbar', $data);
+        $this->load->view('desa/burai');
+        $this->load->view('templates/footer');
+    }
 }

@@ -18,11 +18,11 @@
                             </a>
                         </div>
                         <div class="col">
-                            <a href="<?= base_url('desa/B') ?>" class="btn btn-outlines-clear">
+                            <a href="<?= base_url('desa/burai') ?>" class="btn btn-outlines-clear">
                                 <div class="card">
                                     <img class="card-img-top" src="<?= base_url('assets/img/R.png'); ?>" alt="Card image cap">
                                     <div class="card-body">
-                                        <h5 class="card-title">Desa B</h5>
+                                        <h5 class="card-title">Desa Burai</h5>
                                     </div>
                                 </div>
                             </a>
