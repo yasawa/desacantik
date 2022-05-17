@@ -23,6 +23,12 @@
         </div>
     </div>
 </section>
+<!-- Peta Tematik-->
+<section class="projects-section bg-light" id="peta-tematik">
+    <div class="container px-4 px-lg-5">
+        <div id="map"></div>
+    </div>
+</section>
 <!-- Projects-->
 <section class="projects-section bg-light" id="projects">
     <div class="container text-center">
