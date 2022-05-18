@@ -9,8 +9,8 @@
                     <div class="row">
                         <div class="col">
                             <a href="<?= base_url('desa/pipaPutih') ?>" class="btn btn-outlines-clear">
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url('assets/img/piput.jpg'); ?>" alt="Card image cap">
+                                <div class="card" style="width: 500px; height: 400px;">
+                                    <img class="card-img-top" src="<?= base_url('assets/img/piput.jpg'); ?>" style="height: 100%">
                                     <div class="card-body">
                                         <h5 class="card-title">Desa Pipa Putih</h5>
                                     </div>
@@ -19,8 +19,8 @@
                         </div>
                         <div class="col">
                             <a href="<?= base_url('desa/burai') ?>" class="btn btn-outlines-clear">
-                                <div class="card">
-                                    <img class="card-img-top" src="<?= base_url('assets/img/R.png'); ?>" alt="Card image cap">
+                                <div class="card" style="width: 500px; height: 400px;">
+                                    <img class="card-img-top" src="<?= base_url('assets/img/burai.jpg'); ?>" style="height: 100%">
                                     <div class="card-body">
                                         <h5 class="card-title">Desa Burai</h5>
                                     </div>

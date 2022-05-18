@@ -2,7 +2,7 @@
     #map { height: 500px; }
 </style>
 <!-- Masthead-->
-<header class="masthead" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url('<?= base_url('assets/img/piput.jpg') ?>'); width: 100%; background-repeat: no-repeat; background-size: cover !important;">
+<header class="masthead" style="background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url('<?= base_url('assets/img/burai.jpg') ?>'); width: 100%; background-repeat: no-repeat; background-size: cover !important;">
     <div class=" container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
         <div class="d-flex justify-content-center">
             <div class="text-center">
