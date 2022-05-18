@@ -310,7 +310,7 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (properties) {
     this._div.innerHTML = '<h4>Data</h4>' +  (properties ?
-        '<b>' + properties.nmsls + '</b><br />' + 'Jumlah Penduduk: ' + properties.pdd + '<br/>' + 'Luas: ' + properties.luas + 'm<sup>2</sup>'
+        '<b>' + properties.nmsls + '</b><br />' + 'Jumlah Penduduk: ' + properties.pdd + ' Jiwa <br/>' + 'Luas: ' + properties.luas + ' m<sup>2</sup>'
         : 'sorot pada daerah untuk melihat data');
 };
 
@@ -364,6 +364,7 @@ function zoomToFeature(e) {
 }
 
 function onEachFeature(feature, layer) {
+    layer.bindPopup('<b>' + feature.properties.nmsls + '</b><br />' + 'Jumlah Penduduk: ' + feature.properties.pdd + ' Jiwa <br/>' + 'Luas: ' + feature.properties.luas + ' m<sup>2</sup>');
     layer.on({
         mouseover: highlightFeature,
         mouseout: resetHighlight,
