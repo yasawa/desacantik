@@ -248,57 +248,6 @@
 {"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[104.77534780900004,-3.045871016999968],[104.77546428800008,-3.045768123999949],[104.77582783600008,-3.045479684999975],[104.77594326000008,-3.045379791999949],[104.77586435700005,-3.045168038999975],[104.77586463200004,-3.045161816999951],[104.77534407000007,-3.043531450999978],[104.77257764900008,-3.044154965999951],[104.77011928200005,-3.044711278999955],[104.77011912300009,-3.044711314999972],[104.77238159600006,-3.047926437999934],[104.77249115900008,-3.048070656999926],[104.77281237800008,-3.047815424999953],[104.77318588500003,-3.047518646999947],[104.77367642600007,-3.047125773999937],[104.77457782700009,-3.046494192999944],[104.77503572500007,-3.046187737999958],[104.77504595800008,-3.04618088899997],[104.77520532200003,-3.045996884999965],[104.77534780900004,-3.045871016999968]]]},"properties":{"fid":1318,"OBJECTID_1":9164,"OBJECTID":0,"kk":90,"gid":15968,"bstt":80,"luas":176732.259439,"bsbtt":5,"idsls":"16100500380005","kdkab":"10","kdkec":"050","kdsls":"0005","nmkab":"OGAN ILIR","nmkec":"PEMULUTAN","nmsls":"RT 5 DUSUN 3","bstt_k":0,"kddesa":"038","kdprov":"16","khusus":0,"muatan":95,"nmdesa":"PIPA PUTIH","nmprov":"SUMATERA SELATAN","posisi":"","rw_dki":"","segmen":"","sumber":"BPS","dom_sls":"1, 1","periode":"2019_1","tingkat":0,"nm_gedung":"","wil_campur":0,"fid_1":0,"layer":"","path":"","Shape_Leng":0.01579809723,"Shape_Area":0.00001424163, "pdd":375}}
 ]
 
-// var geojson = L.geoJson(data).addTo(map);
-// L.geoJSON(data, {
-//     style: function(feature) {
-//         if (feature.properties.pdd > 300) {
-//             return {
-//                 weight: 0.3,
-//                 opacity: 1,
-//                 color: "#fb4762",
-//                 dashArray: "5",
-//                 fillOpacity: 0.8,
-//                 fillColor: "#fb4762"
-//             };
-//         } else if (250 < feature.properties.pdd < 300) {
-//             return {
-//                 weight: 0.3,
-//                 opacity: 1,
-//                 color: "#fb788c",
-//                 dashArray: "5",
-//                 fillOpacity: 0.8,
-//                 fillColor: "#fb788c"
-//             };
-//         } else if (200 < feature.properties.pdd < 250) {
-//             return {
-//                 weight: 0.3,
-//                 opacity: 1,
-//                 color: "#fd9fad",
-//                 dashArray: "5",
-//                 fillOpacity: 0.8,
-//                 fillColor: "#fd9fad"
-//             };
-//         } else if (150 < feature.properties.pdd < 200) {
-//             return {
-//                 weight: 0.3,
-//                 opacity: 1,
-//                 color: "#fbc1ca",
-//                 dashArray: "5",
-//                 fillOpacity: 0.8,
-//                 fillColor: "#fbc1ca"
-//             };
-//         } else {
-//             return {
-//                 weight: 0.3,
-//                 opacity: 2,
-//                 color: "#fde2e6",
-//                 dashArray: "5",
-//                 fillOpacity: 0.3,
-//                 fillColor: "#fde2e6"
-//             };
-//         }
-//     }
-// }).addTo(map);
  var info = L.control();
 
 info.onAdd = function (map) {
