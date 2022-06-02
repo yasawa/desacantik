@@ -20,7 +20,7 @@
                         <div class="col">
                             <a href="<?= base_url('desa/burai') ?>" class="btn btn-outlines-clear">
                                 <div class="card" style="width: 300px; height: 200px;">
-                                    <img class="card-img-top" src="<?= base_url('assets/img/burai.jpg'); ?>" style="height: 100%">
+                                    <img class="card-img-top" src="<?= base_url('assets/img/burai.png'); ?>" style="height: 70%">
                                     <div class="card-body">
                                         <h5 class="card-title">Desa Burai</h5>
                                     </div>
@@ -64,7 +64,7 @@
     <section class="contact-section bg-black" id="kab">
         <div class="container px-4 px-lg-5">
             <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="<?= base_url('assets/img/demo-image-02.jpg'); ?>" alt="..." /></div>
+                <div class="col-lg-6"><img class="img-fluid" src="<?= base_url('assets/img/indralaya.jpg'); ?>" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">

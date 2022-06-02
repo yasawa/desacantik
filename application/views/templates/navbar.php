@@ -21,10 +21,10 @@
                         <li class="nav-item"><a class="nav-link" href="#kab">Sumber Daya Alam</a></li>
                     <?php } elseif ($judul == 'Desa Burai') { ?>
                         <li class="nav-item"><a class="nav-link" href="#page-top"><?= $judul; ?></a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">Sejarah Desa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Visi Misi Desa</a></li>
                         <li class="nav-item"><a class="nav-link" href="#peta-tematik">Peta Tematik</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Demografi</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#kab">Ekowisata</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#kab">Desa Wisata</a></li>
                     <?php } ?>
 
                 </ul>
