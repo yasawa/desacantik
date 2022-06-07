@@ -25,6 +25,7 @@
                         <li class="nav-item"><a class="nav-link" href="#peta-tematik">Peta Tematik</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Demografi</a></li>
                         <li class="nav-item"><a class="nav-link" href="#kab">Desa Wisata</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#galeri">Galeri Desa Wisata</a></li>
                     <?php } ?>
 
                 </ul>
